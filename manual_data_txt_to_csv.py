@@ -1,4 +1,4 @@
-# This script converts the 50 txt files of both essay topics into one csv file. This give a total of 100 manually
+# This script converts the 50 .txt files of both essay topics into one .csv file. This gives a total of 100 manually
 # collected samples.
 
 import pandas as pd
