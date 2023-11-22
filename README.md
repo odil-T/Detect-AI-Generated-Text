@@ -4,7 +4,9 @@ This repository uses files from the Kaggle Competition 'LLM - Detect AI Generate
 ## How to use the model:
 
 Please make sure you have Python programming language installed.
-Download the following in a new folder: `use_model_csv_input.py`, `use_model_txt_input.py`, and `models` folder.
+
+Download the following in a new folder: `use_model_csv_input.py`, `use_model_txt_input.py`, `requirements.txt` and `models` folder.
+
 Enter `pip install -r requirements.txt` and then `python -m spacy download en_core_web_md` in a terminal.
 
 You can choose to either input one essay or several essays at once.
