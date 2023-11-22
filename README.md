@@ -16,7 +16,7 @@ Alternatively, if you wish to test several essays at once, then save the essay c
 **How the model was made:**
 
 Data was collected from several sources:
-  1. `train_essays.csv`, `test_essays.csv`, and `train_prompts.csv` were taken from the `LLM - Detect AI Generated Text` Kaggle Competition.
+  1. `train_essays.csv` and `train_prompts.csv` were taken from the `LLM - Detect AI Generated Text` Kaggle Competition.
   2. `train_essays_gpt-3.5-turbo_automatic.csv` and `train_essays_gpt-4_automatic.csv` were taken from a Kaggle User `RADEK OSMULSKI`. The data can be found here `https://www.kaggle.com/datasets/radek1/llm-generated-essays`.
   3. `train_essays_chatgpt_manual.csv` was manually collected by using ChatGPT 3.5. The prompts used are given in `train_prompts.csv`. For `prompt_id` 0, an additional `Do not include title and subheadings.` prompt line is given.
 
