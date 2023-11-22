@@ -23,3 +23,5 @@ The `chatgpt_manual_car` and `chatgpt_manual_college` folders contain 50 .txt fi
 
 The `process_and_save_data.ipynb` file combines the data from `train_essays.csv`, `train_essays_gpt-3.5-turbo_automatic.csv`, `train_essays_gpt-4_automatic.csv`, and `train_essays_chatgpt_manual.csv` files. Additionally, preprocessing of the raw text is performed so that vectorizers could later use them. The preprocessed text is stored in a new column called `processed_text`. The entire data is then split into training and testing sets, resulting in new files called `compiled_processed_train_data.csv` and `compiled_processed_test_data.csv` respectively.
 
+The `model_comparison.ipynb` file uses the following text representation techniques: `bag of words`, `bigram bag of words`, `TF-IDF` and `word2vec` to convert the `processed_text` from the above train and test data files into numbers to be used for training by the following classification models: `Logistic Classifier`, `Random Forest Classifier`, and `Gradient Boosting Classifier`. Note that `word2vec` directly converts the raw text in `text` column to numbers. The F1 scores of these 12 combinations were compared.
+
