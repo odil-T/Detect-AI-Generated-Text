@@ -9,9 +9,7 @@ The `train_v2_drcat_02.csv` file contains data compiled from various sources. Th
 
 The `Mistral7B_CME_v7.csv` file contains data obtained from MISTRAL-7B from the following Kaggle User: https://www.kaggle.com/datasets/carlmcbrideellis/llm-mistral-7b-instruct-texts. The `Mistral7B_CME_v7_15_percent_corruption.csv` file contains AI-generated essays where typos were introduced to 15% of the samples.
 
-
-
-
 # Models
 
 
+# Other Files
