@@ -12,4 +12,4 @@ The `best_submission.ipynb` notebook contains the code used to submit to the Kag
 # Concept App Files
 [INCLUDE DATA USED FOR THIS PART]
 
-The `model_w2v_vc_all_data.joblib` file stores the parameters of a model that was trained on the DAIGT-V2, MISTRAL-7B, and the manually collected data. The `model_best_all_data.ipynb` file was used to build this model. The three datasets were combined, the essay text was preprocessed by removing punctuation, stop words, whitespaces, newlines, by correcting typos, and by lemmatizing the remaining tokens. Word2vec text representation was used from `spaCy` library to convert the preprocessed text to numbers. This produced a new DataFrame of shape (n_samples, 300). Note that the submission for the Kaggle Competition was 
+[INCLUDE MODEL]
