@@ -10,6 +10,8 @@ The `Mistral7B_CME_v7.csv` file contains data obtained from MISTRAL-7B from the 
 The `best_submission.ipynb` notebook contains the code used to submit to the Kaggle Competition. The score obtained was 0.794. The three datasets were combined by only including the `text` and `generated` features. The `RDizzl3_seven` feature was filtered for `True` values. This only includes essays with prompts that were present in the hidden test set that was used to evaluate the score. This allows for more representative data, potentially increasing the score. The text from the essay samples was preprocessed by removing punctuation and stop words and by lemmatizing the remaining tokens to produce cleaner data. Next, word2vec text representation was used to convert the text to numbers. This produced a new DataFrame of shape (n_samples, 300). The `VotingClassifier` class was used to collectively include several models for prediction. This allows for more robust results. The following models were included in `VotingClassifier`: `LogisticRegression`, `RandomForestClassifier`, `KNeighborsClassifier`, `GradientBoostingClassifier`, `XGBClassifier`, `LGBMClassifier`, and `CatBoostClassifier`. The voting mode was set to `soft`.
 
 # Concept App Files
+`app.py` is the file that is used by `Streamlit` to launch the app. 
+
 [INCLUDE DATA USED FOR THIS PART]
 
 [INCLUDE MODEL]
