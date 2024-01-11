@@ -1,6 +1,9 @@
 # Detect-AI-Generated-Text
 This repository stores the files used to get the personal best score for the `LLM - Detect AI Generated Text` Kaggle Competition.
-A concept app was made with available data that tries to detect if essays are AI generated. Predictions are not accurate and are biased towards being `AI Generated`. To try it out, go to [link].
+
+A concept app was made with available data that tries to detect if essays are AI generated. Predictions are not accurate and are biased towards being `AI Generated`.
+
+To try it out, go to [link].
 
 ### Personal Best Score Files
 The `train_essays_chatgpt_manual.csv` file contains data that was manually collected by me from ChatGPT-3.5.
