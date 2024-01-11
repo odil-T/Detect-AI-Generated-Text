@@ -1,9 +1,8 @@
 # Detect-AI-Generated-Text
-This model detects whether a given essay text is AI generated or human written.
-To use the app, go to [link].
+This repository stores some of the files used for the `LLM - Detect AI Generated Text` Kaggle Competition.
+A concept app was made with available data that tries to detect if essays are AI generated. Predictions are not accurate and are biased towards being `AI Generated`. To try it out, go to [link].
 
-This repository uses data from the Kaggle Competition 'LLM - Detect AI Generated Text'.
-This repository contains files necessary to run the Streamlit app.
+
 
 
 
