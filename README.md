@@ -1,5 +1,5 @@
 # Detect-AI-Generated-Text
-This repository stores the files used to get the personal best score for the `LLM - Detect AI Generated Text` Kaggle Competition.
+This repository stores the files used to get the personal best public score for the `LLM - Detect AI Generated Text` Kaggle Competition.
 
 The `train_essays_chatgpt_manual.csv` file contains data that was manually collected by me from ChatGPT-3.5.
 The `train_v2_drcat_02.csv` file contains data compiled from various sources. This dataset, called DAIGT-V2, was obtained from the following Kaggle User: https://www.kaggle.com/datasets/thedrcat/daigt-v2-train-dataset.
